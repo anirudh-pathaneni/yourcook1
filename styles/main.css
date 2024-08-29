@@ -65,6 +65,28 @@ main {
   border-width: 2px;
 }
 
+.booked-info {
+  padding-right: 150px;
+  display: grid;
+  grid-template-columns: 40px 80px;
+  justify-content: start;
+  align-items: center;
+}
+
+.booked-info img {
+  margin: 0;
+  margin-right: 20px;
+  margin-left: -6px;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.booked-info p {
+  margin-top: 10px;
+  font-size: large;
+}
+
 .website-info {
   background-color: black;
   color: white;
